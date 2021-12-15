@@ -9,7 +9,189 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+  <header class="site-header">
+    <div class="site-header-container">
+      <h1 class="site-heading">
+        Where in the world?
+      </h1>
+      <div  class="dark-mode">
+        <a href="#" class="dark-mode-button">Dark Mode</a>
+      </div>
+    </div>
+  </header>
 
+  <!-- MAIN CONTENT -->
+
+  <main class="main-content">
+
+    <section class="search-filter-section">
+      <div class="container">
+        <div class="search-filter-wrapper">
+          <form action="https://echo-htmlacademy.ru" method="get">
+            <div class="search-section">
+              <input type="search" name="country" required placeholder="Search for a country…">
+            </div>
+            <div class="filter-section">
+              <select name="country_name" id="" placeholder="Filter by Region">
+                <option >Africa</option>
+                <option>America</option>
+                <option>Asia</option>
+                <option>Europe</option>
+                <option>Oceania</option>
+              </select>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- COUNTRIES DATA -->
+    <section class="countries-section">
+      <div class="container">
+          <ul class="countries-list">
+            <li class="countries-item">
+              <img src="img/Flag_of_German.jpg" alt="flag of Germany" class="countries-flag-img" width="264" height="160" srcset="img/Flag_of_German.jpg 1x, img/Flag_of_German@2x.jpg 2x">
+              <div class="countries-indicator">
+                <h2 class="countries-name">
+                  Germany
+                </h2>
+                <p class="countries-item-text">
+                  <b class="indicator">Population:</b> 81,770,900
+                </p>
+                <p class="countries-item-text">
+                  <b class="indicator">Region:</b> Europe
+                </p>
+                <p class="countries-item-text">
+                  <b class="indicator">Capital:</b> Berlin
+                </p>
+              </div>
+            </li>
+            <li class="countries-item">
+              <img src="img/flag_of_usa.jpg" alt="flag of USA" class="countries-flag-img" width="264" height="160" srcset="img/flag_of_usa.jpg 1x, img/flag_of_usa@2x.jpg 2x">
+              <div class="countries-indicator">
+                <h2 class="countries-name">
+                  United States of America
+                </h2>
+                <p class="countries-item-text">
+                  <b class="indicator">Population:</b> 323,947,000
+                </p>
+                <p class="countries-item-text">
+                  <b class="indicator">Region:</b> Americas
+                </p>
+                <p class="countries-item-text">
+                  <b class="indicator">Capital:</b> Washington, D.C
+                </p>
+              </div>
+            </li>
+            <li class="countries-item">
+              <img src="img/Flag_of_Brazil.jpg" alt="flag of Brazil" class="countries-flag-img" width="264" height="160" srcset="img/Flag_of_Brazil.jpg 1x, img/Flag_of_Brazil@2x.jpg 2x">
+              <div class="countries-indicator">
+                <h2 class="countries-name">
+                  Brazil
+                </h2>
+                <p class="countries-item-text">
+                  <b class="indicator">Population:</b> 206,135,893
+                </p>
+                <p class="countries-item-text">
+                  <b class="indicator">Region:</b>Americas
+                </p>
+                <p class="countries-item-text">
+                  <b class="indicator">Capital:</b> Brasília
+                </p>
+              </div>
+            </li>
+            <li class="countries-item">
+              <img src="img/Iceland.jpg" alt="flag of Iceland" class="countries-flag-img" width="264" height="160" srcset="img/Iceland.jpg 1x, img/Iceland@2x.jpg 2x">
+              <div class="countries-indicator">
+                <h2 class="countries-name">
+                  Iceland
+                </h2>
+                <p class="countries-item-text">
+                  <b class="indicator">Population:</b> 334,300
+                </p>
+                <p class="countries-item-text">
+                  <b class="indicator">Region:</b> Europe
+                </p>
+                <p class="countries-item-text">
+                  <b class="indicator">Capital:</b> Reykjavík
+                </p>
+              </div>
+            </li>
+          </ul>
+
+          <ul class="countries-list-two">
+            <li class="countries-item">
+              <img src="img/Flag_of_Afghanistan.jpg" alt="flag of Afghanistan" class="countries-flag-img" width="264" height="160" srcset="img/Flag_of_Afghanistan.jpg 1x, img/Flag_of_Afghanistan@2x.jpg 2x">
+              <div class="countries-indicator">
+                <h2 class="countries-name">
+                  Afghanistan
+                </h2>
+                <p class="countries-item-text">
+                  <b class="indicator">Population:</b> 27,657,145
+                </p>
+                <p class="countries-item-text">
+                  <b class="indicator">Region:</b> Asia
+                </p>
+                <p class="countries-item-text">
+                  <b class="indicator">Capital:</b> Kabul
+                </p>
+              </div>
+            </li>
+            <li class="countries-item">
+              <img src="img/Flag_of_Aland Islands.jpg" alt="flag of Aland Islands" class="countries-flag-img" width="264" height="160" srcset="img/Flag_of_Aland Islands.jpg 1x, img/Flag_of_Aland Islands@2x.jpg 2x">
+              <div class="countries-indicator">
+                <h2 class="countries-name">
+                  Åland Islands
+                </h2>
+                <p class="countries-item-text">
+                  <b class="indicator">Population:</b> 28,875
+                </p>
+                <p class="countries-item-text">
+                  <b class="indicator">Region:</b> Europe
+                </p>
+                <p class="countries-item-text">
+                  <b class="indicator">Capital:</b> Mariehamn
+                </p>
+              </div>
+            </li>
+            <li class="countries-item">
+              <img src="img/Flag_of_Albania.jpg" alt="flag of Albania" class="countries-flag-img" width="264" height="160" srcset="img/Flag_of_Albania.jpg 1x, img/Flag_of_Albania@2x.jpg 2x">
+              <div class="countries-indicator">
+                <h2 class="countries-name">
+                  Albania
+                </h2>
+                <p class="countries-item-text">
+                  <b class="indicator">Population:</b> 2,886,026
+                </p>
+                <p class="countries-item-text">
+                  <b class="indicator">Region:</b>Europe
+                </p>
+                <p class="countries-item-text">
+                  <b class="indicator">Capital:</b>Tirana
+                </p>
+              </div>
+            </li>
+            <li class="countries-item">
+              <img src="img/Algeria.jpg" alt="flag of Algeria" class="countries-flag-img" width="264" height="160" srcset="img/Algeria.jpg 1x, img/Algeria@2x.jpg 2x">
+              <div class="countries-indicator">
+                <h2 class="countries-name">
+                  Algeria
+                </h2>
+                <p class="countries-item-text">
+                  <b class="indicator">Population:</b> 40,400,000
+                </p>
+                <p class="countries-item-text">
+                  <b class="indicator">Region:</b> Africa
+                </p>
+                <p class="countries-item-text">
+                  <b class="indicator">Capital:</b> Algiers
+                </p>
+              </div>
+            </li>
+          </ul>
+      </div>
+    </section>
+  </main>
 
 
   <script src="js/main.js"></script>
